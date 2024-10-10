@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -22,7 +23,7 @@ async function MemeGenerator() {
               key={item.id}
               className="shadow-lg p-4 rounded-lg bg-white flex flex-col items-center gap-4 h-full transition-transform transform hover:scale-105 hover:shadow-xl"
             >
-              <img
+              <Image
                 src={item.url}
                 alt={item.name}
                 className="rounded-md w-full h-[250px] object-cover transition-all duration-300 hover:opacity-90"

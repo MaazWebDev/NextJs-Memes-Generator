@@ -3,9 +3,6 @@ import React from 'react'
 import Button from './Button';
 
 const Header = () => {
-    const handleClick = () => {
-        alert("😂 Hahaha!");
-      };
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       <nav className="container mx-auto flex justify-between items-center py-4 px-6">
